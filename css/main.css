@@ -1,0 +1,100 @@
+/* Color scheme stolen from Sergey Karayev */
+a {
+color: #1772d0;
+text-decoration:none;
+}
+a:focus, a:hover {
+color: #f09228;
+text-decoration:none;
+}
+body,td,th,tr,p,a {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px
+}
+li {
+  margin: 8px;
+  list-style-position: inside;
+  text-indent: -20px;
+  padding-left: 1em;
+}
+ul {
+  padding-inline-start: 0px;
+}
+strong {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px;
+}
+heading {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 22px;
+}
+papertitle {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 700
+}
+name {
+font-family: 'Lato', Verdana, Helvetica, sans-serif;
+font-size: 32px;
+}
+.one
+{
+width: 160px;
+height: 160px;
+position: relative;
+}
+.two
+{
+width: 160px;
+height: 160px;
+position: absolute;
+transition: opacity .2s ease-in-out;
+-moz-transition: opacity .2s ease-in-out;
+-webkit-transition: opacity .2s ease-in-out;
+}
+.fade {
+ transition: opacity .2s ease-in-out;
+ -moz-transition: opacity .2s ease-in-out;
+ -webkit-transition: opacity .2s ease-in-out;
+}
+span.highlight {
+    background-color: #ffffd0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 140px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav a {
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  color: #f2f2f2;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 140px; /* Same as the width of the sidenav */
+  /*font-size: 28px; *//* Increased text to enable scrolling */
+  /*padding: 0px 10px;*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
