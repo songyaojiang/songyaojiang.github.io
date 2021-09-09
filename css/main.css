@@ -78,7 +78,6 @@ span.highlight {
 }
 
 .sidenav a {
-  /* padding: 6px 8px 6px 16px; */
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
@@ -87,9 +86,32 @@ span.highlight {
   display: block;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav a:focus, a:hover {
+  color: #f09228;
+  text-decoration: underline;
 }
+
+.sidenav p {
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  margin-left:15px;
+  display: flex;
+}
+
+.sidenav i {
+  text-align: center;
+  font-size: 15px;
+  margin-left: 3px
+}
+
+.sidenav b:focus, b:hover {
+  color: #f09228;
+  text-decoration:none;
+  }
+
 
 .main {
   margin-left: 140px; /* Same as the width of the sidenav */
