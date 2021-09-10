@@ -40,6 +40,16 @@ name {
 font-family: 'Lato', Verdana, Helvetica, sans-serif;
 font-size: 32px;
 }
+.chinesename
+{
+margin-top: 16px;
+margin-bottom: 32px;
+font-family: 'HYZhuanShuF';
+font-size: 32px;
+font-weight: normal;
+font-style: normal;
+display: block;
+}
 .one
 {
 width: 160px;
@@ -95,7 +105,7 @@ span.highlight {
   text-align: center;
   font-size: 12px;
   position: fixed;
-  bottom: 0;
+  bottom: 8px;
   color: #f1f1f1;
   margin-left:15px;
   display: flex;
