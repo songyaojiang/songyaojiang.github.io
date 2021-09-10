@@ -50,7 +50,12 @@ name {
 font-family: 'Lato', Verdana, Helvetica, sans-serif;
 font-size: 32px;
 }
-
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
 .hero-left
 {
   width: 67%;
