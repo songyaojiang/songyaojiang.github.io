@@ -64,9 +64,12 @@ a.anchor {
 {
   width: 33%;
 }
-.hero-top
-{
+.hero-top {
   display: none;
+  width: 100%;
+}
+.hero-top img {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -261,6 +264,9 @@ color: #f2f2f2;
 @media only screen and (max-width: 370px) {
   .topnav {
     display: none;
+  }
+  .all{
+    padding-top:5px;
   }
 }
 
