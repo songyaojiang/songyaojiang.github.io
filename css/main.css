@@ -13,7 +13,7 @@ font-size: 14px
 }
 .all{
   width:100%;
-  max-width:900px;
+  max-width:1000px;
   border:0px;
   border-spacing:0px;
   border-collapse:separate;
@@ -58,11 +58,11 @@ a.anchor {
 }
 .hero-left
 {
-  width: 67%;
+  width: 60%;
 }
 .hero-right
 {
-  width: 33%;
+  width: 40%;
 }
 .hero-top {
   display: none;
