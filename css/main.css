@@ -33,6 +33,36 @@ li {
 ul {
   padding-inline-start: 0px;
 }
+
+.news-list {
+  margin-bottom: 0;
+}
+
+.news-archive {
+  margin-top: 12px;
+}
+
+.news-archive summary {
+  color: #1772d0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.news-archive summary:hover,
+.news-archive summary:focus {
+  color: #f09228;
+  text-decoration: underline;
+}
+
+.news-archive[open] summary {
+  margin-bottom: 8px;
+}
+
+.archived-news {
+  margin-top: 0;
+}
 strong {
 font-family: 'Lato', Verdana, Helvetica, sans-serif;
 font-size: 14px;
@@ -309,3 +339,6 @@ only screen and (max-width: 600px) {
     font-size: 24px;
   }
 } */
+
+
+
